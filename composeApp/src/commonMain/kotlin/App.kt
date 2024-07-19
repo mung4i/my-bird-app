@@ -19,6 +19,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.icerock.moko.mvvm.compose.getViewModel
 import dev.icerock.moko.mvvm.compose.viewModelFactory
@@ -110,5 +111,11 @@ fun BirdImageCell(image: BirdImageItem) {
             .fillMaxWidth()
             .aspectRatio(1.0f)
     )
+}
+
+@Preview
+@Composable
+fun BirdAppPreview() {
+
 }
 

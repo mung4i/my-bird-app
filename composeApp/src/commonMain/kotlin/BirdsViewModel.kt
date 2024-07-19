@@ -39,7 +39,7 @@ class BirdsViewModel: ViewModel() {
         }
     }
 
-    fun updateImages() {
+    private fun updateImages() {
         viewModelScope.launch {
             val images = getImages()
             _uiState.update {
